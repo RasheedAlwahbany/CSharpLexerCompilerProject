@@ -1,0 +1,119 @@
+final project on Compilar  Lab
+«ﬂ » „ —Ã„ ·„Ã„Ê⁄…  „‰ «·Ã„·  ⁄·Ï «‰ ÌﬂÊ‰  ⁄—Ì› «·»Ì«‰«  Ê√Ê·ÊÌ… «·⁄„·Ì«  «·Õ”«»Ì… „ﬂ Ê» »‘ﬂ· ’ÕÌÕ ›Ì «·„ —Ã„  ·Ì·»Ì „ ÿ·»«  Ã„· «·„Ã„Ê⁄… «·„Œ «—… 
+Group A:-
+1-CASE   expr ([WHEN expr THEN stmt])+  [{ELSE stmt}|E] END 
+2-Integer.ParseInt(expr)
+3- READ  (argument);
+4-IF condition THEN  stmt [elsif condition then stms]|[else  stmts]  endif;
+5- id := expression;
+Group B:-
+1-Do {While|Until} condition[stmt][ContinueDo][stmt][ExitDo when condition ][stmt] Loop
+2-union { body of union ... } 
+3- base(argument);
+4-Sin(expr)
+5-cout<<expr;
+Group C:-
+1-switch expr  [case expr  stmt]+  [otherwise       stmt]   end;
+2-IMPORT ID[ .*|.ID]+;
+3-TO_CHAR(argument)
+4- vector   <datatype> ID;
+5-nullif(id,id,exp);
+
+Group D:-
+1-[Public|Private|Protected][Static|abstract] CLASS ID [extends id [implements id]]{ decls stmts }
+2- id INSTANCEOF  id
+3-decode(id,[condition,result]+)
+4-concat(id,id)
+Group K:-
+x1-Create [OR Replace ] function   id(argument)  return <datatype> {as|is} [decls] begin stmts   end;
+2-try {  stmts   }catch( Exception  id){ stmt}
+3- Log.d(text,text);
+4-EXIT(expe);
+
+Group E:-
+1-FOR variable := start,end[ ,increment] statements END FOR ;
+2-typedef union {                     body of union ...                     }  ID;
+3-PRINT(argument);
+4-[public|private|protected][static]{final|const} <type> id =expr;
+5- id  IS  id 
+11:17 AM 3/28/2019
+Group F:-
+1-CASE  ([WHEN expr THEN stmt ] )+ [{ELSE stmt}|E] END CASE        /*caseval   */      
+2-SET {(([USERVAR  {[>,<,>=,<=,=,<=>,<>]|[:=]}  expr]){[,]}*} 
+3-set id=expr;
+
+Group G:-
+1-STRUCT { body of struct } id;    &&   typedef    id  *chr;
+2-WHILE  expression BEGIN statements END WHILE; 
+3-#DEFINE  id = expr;
+4-Power(expr,num);
+5- dim  id  as  <type>;
+
+Group H:-
+1-For counter [ As datatype ] = start To end [ Step expr]  [stmt] 
+              [ Continue For ]  [ stmt ] [ Exit For ][ stmt ]   Next [ counter ];
+2- enum id{body of enum}  ; 
+3-SQRT(argument);
+4-super(argument);
+Group I:-
+1-FOR variable EQUAL exp TO exp [STEP exp]   stmt
+2-typedef struct { body of struct    } id; 
+3-Rem comment
+4-RETURN exp 
+5-GOSUB num;
+
+Group J:-
+1-WHILE condition  DO   statements   END ; 
+2-type   <nodetype>   expr statement   
+3- LET variable := expr;
+4- DO stmts UNTIL   expr;
+5-PUT(argument);
+
+Group L:-
+1- Create [OR Replace ] procedure   id(argument) {as|is}[decls] begin  stmts   end;
+2-for id = expr:expr    stmts            end
+3-PING expr.expr.expr.expr
+4- JUMP  lable
+
+Group M:-
+1-Do[stmts][if condition ContinueDo][stmts] [Exit If condition][stmts]Loop {While|Until } condition;
+2-[Public|Private|Protected][Static] {VOID|BASIC} Identifier(argument)[Throws ERROR]{ stmts}
+3-Add  id ,id     
+4- ID=Identifier(argument);
+Group N:-
+1- id:=CASE expr ([WHEN expr THEN stmt ])+  ELSE stmt  END /*caseval   */ 	
+2-isdigit(id) ,isletter(id)  
+3-using namespace  ID
+4- Move id,id
+5- Select [*|argument]+ from tab;
+
+Group O:-
+1-foreach(ID IN var_id) stmt
+2-typedef enum { body of enum }  id; 
+3-if expr then stmt [else stmt]    end;
+4-WRITE (argument)|NEXT variable;
+5-get(argument);
+
+Group P:-
+1- loop  stmt    [exit when condition]  [stmt]  endloop;
+2-RollBack variable;
+3- type <datatype> {typebody};
+4- to_date(id)
+5-distnict(id)
+Group Q:-
+1-SELECT  Case id   [  Case exp   stmt ]+ [ Case Else   stmt]    End Select
+2-Foreach([type] id;bools;expr ) [{stmt}]|stmt 
+3-to_number(id)
+4-Character.isdigit(id)
+Group R:-
+1-declare    [id <datatype> [:=expr]]* begin stmts   end;
+2-Round(id,expr)
+3-lower(id),upper(id)
+4-String.valueof(expr)
+                                                                           „·«ÕŸ«                                                     
+⁄œœ ÿ·«» «·„Ã„Ê⁄… «·ÊÕœ…   Œ„”…   ÿ·«» 
+›Ì Õ«· ﬂ«‰ ⁄œœ «·ÿ·«» ›Ì «·„Ã„Ê⁄… À·«À… ÿ·«»  Õ–› „‰ Ã„· «·„Ã„Ê⁄… Ã„·… Ê«Õœ… »‘—ÿ ·« ﬂÊ‰ «·Ã„·… «·«”«”Ì…
+›Ì Õ«· ﬂ«‰ ⁄œœ «·ÿ·«» ›Ì «·„Ã„Ê⁄… «À‰Ì‰ ÿ·«»  Õ–› „‰ Ã„· «·„Ã„Ê⁄… Ã„· Ì‰  »‘—ÿ ·« ﬂÊ‰  «ÕœÏ «·Ã„· Ã„·… «”«”Ì…
+›Ì Õ«· ﬂ«‰ ⁄œœ «·ÿ·«» ›Ì «·„Ã„Ê⁄… ÿ«·» Ê«Õœ  Õ–› «—»⁄ Ã„· „‰ Ã„· «·„Ã„Ê⁄…   »‘—ÿ «‰ ÌŒ «— «·Ã„·… «·«”«”Ì… 
+ 
+ 

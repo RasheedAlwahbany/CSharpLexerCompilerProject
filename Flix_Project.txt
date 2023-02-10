@@ -1,0 +1,6 @@
+x1-Create [OR Replace ] function   id(argument)  return <datatype> {as|is} [decls] begin stmts   end;
+
+stmt: 
+	| CREATE FUNCTION ID LEFT_PARENTHESIS argumnet RIGHT_PARENTHESIS datatype {AS|IS} [decler] BEGIN stmts END;
+	| CREATE OR REPLACE FUNCTION ID LEFT_PARENTHESIS argumnet RIGHT_PARENTHESIS datatype {AS|IS} [decler] BEGIN stmts END;
+

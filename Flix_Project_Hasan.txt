@@ -1,0 +1,5 @@
+1-For counter [ As datatype ] = start To end [ Step expr]  [stmt] 
+              [ Continue For ]  [ stmt ] [ Exit For ][ stmt ]   Next [ counter ];
+
+stmt: 
+	| For ID [ AS BASIC ] = NUM TO NUM [ STEP EXPR ] [ stmt ] [ CONTINUE ] [ stmt ] [ Exit ] [ stmt ] NEXT [ ID ];

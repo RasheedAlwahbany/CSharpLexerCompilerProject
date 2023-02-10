@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectGuid>{2547896D-1FE0-45D0-85F3-AA3D2B6C9715}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>lexer</RootNamespace>
+    <AssemblyName>lexer</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Access.cs" />
+    <Compile Include="And.cs" />
+    <Compile Include="Arith.cs" />
+    <Compile Include="Array1.cs" />
+    <Compile Include="Break.cs" />
+    <Compile Include="Case.cs" />
+    <Compile Include="Catch.cs" />
+    <Compile Include="charecter.cs" />
+    <Compile Include="Concat.cs" />
+    <Compile Include="Constant.cs" />
+    <Compile Include="Continue.cs" />
+    <Compile Include="Declear.cs" />
+    <Compile Include="Default.cs" />
+    <Compile Include="Do.cs" />
+    <Compile Include="Else.cs" />
+    <Compile Include="Env.cs" />
+    <Compile Include="EQ.cs" />
+    <Compile Include="Expr.cs" />
+    <Compile Include="For.cs" />
+    <Compile Include="Function.cs" />
+    <Compile Include="Id.cs" />
+    <Compile Include="If.cs" />
+    <Compile Include="lexer.cs" />
+    <Compile Include="Logical.cs" />
+    <Compile Include="Loop.cs" />
+    <Compile Include="Node.cs" />
+    <Compile Include="Not.cs" />
+    <Compile Include="NUM.cs" />
+    <Compile Include="NumExp.cs" />
+    <Compile Include="Op.cs" />
+    <Compile Include="Or.cs" />
+    <Compile Include="parser.cs" />
+    <Compile Include="plan.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Real.cs" />
+    <Compile Include="Rel.cs" />
+    <Compile Include="Repeat.cs" />
+    <Compile Include="Select.cs" />
+    <Compile Include="Seq.cs" />
+    <Compile Include="SeqCase.cs" />
+    <Compile Include="Set.cs" />
+    <Compile Include="SetElem.cs" />
+    <Compile Include="Stmt.cs" />
+    <Compile Include="Switch.cs" />
+    <Compile Include="Tag.cs" />
+    <Compile Include="Temp.cs" />
+    <Compile Include="Token.cs" />
+    <Compile Include="Try.cs" />
+    <Compile Include="Type1.cs" />
+    <Compile Include="Unary.cs" />
+    <Compile Include="Until.cs" />
+    <Compile Include="When.cs" />
+    <Compile Include="While.cs" />
+    <Compile Include="Word.cs" />
+    <Compile Include="Xor.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

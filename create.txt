@@ -1,0 +1,9 @@
+x1-Create [OR Replace ] function   id(argument)  return <datatype> {as|is} [decls] begin stmts   end;
+
+create function a(int g=0,int h=0) int as int ff=0; begin int hg=1999; end;
+replace function a2(int g2=0,int h2=0) int as int ff2=0; begin int hg2=1999; end;
+
+
+create function a3(int g3=0,int h3=0) int as begin int hg3=1999; end;
+replace function a4(int g4=0,int h4=0) int as begin int hg4=1999; end;
+

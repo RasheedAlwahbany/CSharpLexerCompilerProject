@@ -1,0 +1,21 @@
+J:- while condation do statements end;
+
+case Tag.WHILE:{
+	Expr ex;
+	Stmt st;
+	match(Tag.WHILE);
+	ex=bools();
+	match(Tag.DO);
+	st=stmt();
+	match(Tag.END);
+	match(';');
+	return new While(st,ex);
+
+}
+
+
+stmt;
+	|WHILE bools DO stmt end;
+
+
+

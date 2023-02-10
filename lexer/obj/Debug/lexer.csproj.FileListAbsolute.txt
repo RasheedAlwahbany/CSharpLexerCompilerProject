@@ -1,0 +1,30 @@
+C:\Users\TOSHIBA\Documents\SharpDevelop Projects\lexer\lexer\obj\Debug\lexer.csprojResolveAssemblyReference.cache
+C:\Users\TOSHIBA\Documents\SharpDevelop Projects\lexer\lexer\bin\Debug\lexer.exe
+C:\Users\TOSHIBA\Documents\SharpDevelop Projects\lexer\lexer\bin\Debug\lexer.pdb
+C:\Users\TOSHIBA\Documents\SharpDevelop Projects\lexer\lexer\obj\Debug\lexer.exe
+C:\Users\TOSHIBA\Documents\SharpDevelop Projects\lexer\lexer\obj\Debug\lexer.pdb
+C:\Users\Sadeq\Desktop\lexer33\lexer\bin\Debug\lexer.exe
+C:\Users\Sadeq\Desktop\lexer33\lexer\bin\Debug\lexer.pdb
+C:\Users\Sadeq\Desktop\lexer33\lexer\obj\Debug\lexer.csprojResolveAssemblyReference.cache
+C:\Users\Sadeq\Desktop\lexer33\lexer\obj\Debug\lexer.exe
+C:\Users\Sadeq\Desktop\lexer33\lexer\obj\Debug\lexer.pdb
+E:\live\BOOKS_School\Level 3\PART2\build compiler\lap_shokrey\lexer34\lexer\obj\Debug\lexer.csprojResolveAssemblyReference.cache
+E:\live\BOOKS_School\Level 3\PART2\build compiler\lap_shokrey\lexer34\lexer\obj\Debug\lexer.exe
+E:\live\BOOKS_School\Level 3\PART2\build compiler\lap_shokrey\lexer34\lexer\bin\Debug\lexer.exe
+E:\live\BOOKS_School\Level 3\PART2\build compiler\lap_shokrey\lexer34\lexer\bin\Debug\lexer.pdb
+E:\live\BOOKS_School\Level 3\PART2\build compiler\lap_shokrey\lexer34\lexer\obj\Debug\lexer.pdb
+E:\live\BOOKS_School\Level 3\Home_Work2\Build Compiler\lexer34\lexer\obj\Debug\lexer.csprojResolveAssemblyReference.cache
+E:\live\BOOKS_School\Level 3\Home_Work2\Build Compiler\lexer34\lexer\obj\Debug\lexer.exe
+E:\live\BOOKS_School\Level 3\Home_Work2\Build Compiler\lexer34\lexer\obj\Debug\lexer.pdb
+E:\live\BOOKS_School\Level 3\Home_Work2\Build Compiler\lexer34\lexer\bin\Debug\lexer.exe
+E:\live\BOOKS_School\Level 3\Home_Work2\Build Compiler\lexer34\lexer\bin\Debug\lexer.pdb
+E:\live\BOOKS_School\Level 3\Home_Work2\lexer34\lexer\obj\Debug\lexer.exe
+E:\live\BOOKS_School\Level 3\Home_Work2\lexer34\lexer\obj\Debug\lexer.pdb
+E:\live\BOOKS_School\Level 3\Home_Work2\lexer34\lexer\bin\Debug\lexer.exe
+E:\live\BOOKS_School\Level 3\Home_Work2\lexer34\lexer\bin\Debug\lexer.pdb
+E:\live\BOOKS_School\Level 3\Home_Work2\lexer34\lexer\obj\Debug\lexer.csprojResolveAssemblyReference.cache
+D:\Works\MyProjects\C++\lexer34\lexer\obj\Debug\lexer.exe
+D:\Works\MyProjects\C++\lexer34\lexer\obj\Debug\lexer.pdb
+D:\Works\MyProjects\C++\lexer34\lexer\bin\Debug\lexer.exe
+D:\Works\MyProjects\C++\lexer34\lexer\bin\Debug\lexer.pdb
+D:\Works\MyProjects\C++\lexer34\lexer\obj\Debug\lexer.csprojResolveAssemblyReference.cache
